@@ -1,5 +1,5 @@
 body{
-  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-family: Inter,Helvetica,Arial,  sans-serif;
   margin: 10px;
   background:  #E4C59E;
 }
@@ -57,3 +57,77 @@ main{
   font-weight: 600;
 }
 
+.ingredient-list{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.ingredient-list > li{
+  margin: 8px;
+}
+
+.recipe-section{
+  margin: 0 20px;
+}
+
+.recipe-section > h1{
+  font-weight: 800;
+}
+
+.get-recipe-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#af927b;
+  color: #ffffff;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.get-recipe-container > div > h3{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.get-recipe-container > div > p{
+  font-weight: 100;
+  color: #fff9f5;
+  margin-top: 8px;
+}
+
+.get-recipe-container > button{
+  background-color: #803D3B;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #E4C59E;
+  margin-left: 30px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.insufficient-ingredients{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #af927b;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.insufficient-ingredients > h1{
+  margin-bottom: 0;
+}
+
+.ai-recipe-container{
+  padding: 20px;
+}
